@@ -2224,7 +2224,7 @@ ul.actions.special {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #0000004e;
+  background-color: #00000074;
 }
 
 /* Logo */
@@ -2399,6 +2399,7 @@ ul.actions.special {
   width: 48em;
   margin: 0 auto;
   color: #f0f0f0;
+  text-align: justify;
 }
 
 /* Features */
@@ -3048,7 +3049,7 @@ form input[type="tel"]:focus,
   }
 
   #logo h1 {
-    font-size: 1.5em;
+    font-size: 2em;
     letter-spacing: 0.2em;
   }
 
@@ -3062,8 +3063,6 @@ form input[type="tel"]:focus,
 
   #intro {
     text-align: center;
-    padding-right: 2em;
-    padding-left: 2em;
     padding-bottom: 5em;
     margin: 0 auto;
   }
@@ -3183,11 +3182,11 @@ ul.intro li {
   margin: 15px 0;
 }
 .opaque {
-  background: #ffd900b5 url("images/overlay.png");
+  background: #fcc100d0 url("images/overlay.png");
   color: #023020;
 }
 .opaque:hover {
-  background: #ffd900 url("images/overlay.png");
+  background: #fcc100 url("images/overlay.png");
 }
 .fold {
   z-index: 10;
@@ -4241,7 +4240,7 @@ header.major h1 {
 
 /* Tube Light */
 h1 {
-  -webkit-box-reflect: below 8px linear-gradient(transparent, #0004);
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
   outline: none;
   animation: animate 30s linear infinite;
 }
@@ -4270,12 +4269,11 @@ h1 {
 
 /* Pulse Effect */
 
-.gallery > a > img {
+/* .gallery > a > img {
   -moz-transition: scale 0.25s ease;
   -webkit-transition: scale 0.25s ease;
   -ms-transition: scale 0.25s ease;
   transition: scale 0.25s ease;
-  scale: 1;
 }
 .gallery > a:hover > img {
   -moz-transition: scale 0.25s ease;
@@ -4283,4 +4281,4 @@ h1 {
   -ms-transition: scale 0.25s ease;
   transition: scale 0.25s ease;
   scale: 1.03;
-}
+} */
