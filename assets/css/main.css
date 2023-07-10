@@ -3836,12 +3836,13 @@ ul.contact-icons li:before {
 
 @media screen and (max-width: 736px) {
   .gallery {
-    column-gap: 0.5rem;
+    column-gap: 1rem;
   }
 
   .gallery a,
   .gallery span {
     /* margin: 0 0 0.5rem 0; */
+    padding: 0.5rem 0;
   }
 }
 
