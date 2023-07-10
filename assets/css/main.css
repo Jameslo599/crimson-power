@@ -4282,7 +4282,6 @@ h1 {
   -webkit-transition: scale 0.25s ease;
   -ms-transition: scale 0.25s ease;
   transition: scale 0.25s ease;
-  margin-bottom: 0.5rem;
 }
 .gallery > a:hover > img {
   -moz-transition: scale 0.25s ease;
