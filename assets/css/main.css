@@ -3726,6 +3726,10 @@ ul.contact-icons li:before {
 }
 
 @media screen and (max-width: 480px) {
+  #intro p.style3 {
+    text-align: left;
+  }
+
   .gallery-wrapper {
     padding: 3rem 0 3rem 0;
   }
@@ -4269,7 +4273,7 @@ h1 {
 
 /* Pulse Effect */
 
-/* .gallery > a > img {
+.gallery > a > img {
   -moz-transition: scale 0.25s ease;
   -webkit-transition: scale 0.25s ease;
   -ms-transition: scale 0.25s ease;
@@ -4281,4 +4285,4 @@ h1 {
   -ms-transition: scale 0.25s ease;
   transition: scale 0.25s ease;
   scale: 1.03;
-} */
+}
