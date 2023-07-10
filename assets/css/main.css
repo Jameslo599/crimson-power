@@ -3727,7 +3727,7 @@ ul.contact-icons li:before {
 
 @media screen and (max-width: 480px) {
   #header {
-    height: 90vh;
+    height: 85vh;
   }
 
   #intro p.style3 {
