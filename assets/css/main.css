@@ -3726,6 +3726,10 @@ ul.contact-icons li:before {
 }
 
 @media screen and (max-width: 480px) {
+  #header {
+    height: 90vh;
+  }
+
   #intro p.style3 {
     text-align: left;
   }
@@ -3806,6 +3810,7 @@ ul.contact-icons li:before {
 }
 
 .gallery {
+  column-gap: 2rem;
   columns: 3;
   margin: 0 0 2rem 0;
   width: 100%;
@@ -3830,6 +3835,10 @@ ul.contact-icons li:before {
 }
 
 @media screen and (max-width: 736px) {
+  .gallery {
+    column-gap: 0.5rem;
+  }
+
   .gallery a,
   .gallery span {
     margin: 0 0 0.5rem 0;
