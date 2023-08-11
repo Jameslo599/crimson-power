@@ -4310,11 +4310,13 @@ header.major h1 {
 #review header.minor {
   margin-bottom: 0;
 }
+
 .review {
   font-size: 1.2rem;
   padding-bottom: 0.5rem;
   border-bottom: 3px white solid;
 }
+
 .inner p {
   font-size: 1.1rem;
 }
@@ -4336,7 +4338,7 @@ header.major h1 {
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  background-color: #282828d9;
+  background-color: #28282800;
 }
 
 .spotlights > section > .content {
@@ -4361,7 +4363,9 @@ header.major h1 {
 }
 
 .spotlights > section > .content > .inner {
-  margin: 0 auto;
+  background-color: #222835;
+  padding: 2rem;
+  margin: 1rem auto;
   max-width: 100%;
   width: 65em;
 }
@@ -4379,6 +4383,10 @@ header.major h1 {
   -webkit-align-items: -webkit-flex-end;
   -ms-align-items: -ms-flex-end;
   align-items: flex-end;
+}
+
+.spotlights > section > .content {
+  padding: 4em 3em;
 }
 
 @media screen and (max-width: 1680px) {
@@ -4425,9 +4433,6 @@ header.major h1 {
 .spotlights > section:last-child {
   background-color: #1e1d1d83;
 } */
-.spotlights > section > .content {
-  padding: 4em 3em;
-}
 .spotlights .inner {
   display: flex;
   flex-direction: column;
